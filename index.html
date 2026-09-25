@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>John's portfolio</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <header class="hero">
+    <h1>Hi, I'm John 👋</h1>
+    <p>I'm a Web Developer in Training</p>
+    <a href="#projects" class="hero-button">View My Projects</a>
+</header>
+        <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+        <header>
+            <img src="profile.jpg" alt="My profile picture" class="profile-picture">
+
+            <hi>John's portfolio</hi>
+            <p>Welcome to my website!</p>
+        </header>
+
+        <section id="about">
+            <h2>About me</h2>
+            <p>
+    I'm a Computer Science student passionate about technology
+    and web development. I'm currently learning HTML, CSS and
+    JavaScript, and I'm working toward becoming a skilled web developer.
+</p>
+<p>
+    My goal is to build useful websites, improve my programming
+    skills, and create projects that solve real problems.
+</p>
+
+        </section>
+
+        <section id="Skills">
+            <h2>My Skills</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Java Script</li>
+            </ul>
+        </section>
+        
+        <section id="projects">
+    <h2>My Projects</h2>
+
+    <div class="project">
+        <h3>My First Website</h3>
+        <p>
+            A simple website I built while learning HTML, CSS and JavaScript.
+        </p>
+        <a href="project1.html">
+        <button>View Project</button>
+        </a>
+    </div>
+
+    <div class="project">
+        <h3>My Portfolio</h3>
+        <p>
+            My personal portfolio website where I showcase my skills and projects.
+        </p>
+        <a href="project2.html">
+        <button>View Project</button>
+        </a>
+    </div>
+
+    <div class="project">
+    <h3>My Personal Portfolio</h3>
+
+    <p>
+        A responsive personal portfolio website built while learning
+        web development.
+    </p>
+
+    <p><strong>Technologies:</strong> HTML, CSS, JavaScript</p>
+
+    <a href="index.html">
+        <button>View Project</button>
+    </a>
+</div>
+</section>
+
+     <section id="contact">
+    <h2>Contact Me</h2>
+
+    <form onsubmit="sendMessage(event)">
+
+        <input type="text" id="name" placeholder="Your Name" required>
+
+        <input type="email" id="email" placeholder="Your Email" required>
+
+        <textarea id="message" placeholder="Your Message" required></textarea>
+
+        <button type="submit">Send Message</button>
+
+    </form>
+
+    <p id="response"></p>
+</section>
+
+        <button onclick="sayHello()">Click Me</button>
+        
+        <footer>
+    <p>© 2026 John's Portfolio. All rights reserved.</p>
+    <p>Built with HTML, CSS & JavaScript.</p>
+</footer>
+
+        <script src="script.js"></script>
+        
+    </body>
+</html>
