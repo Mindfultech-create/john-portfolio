@@ -249,7 +249,20 @@ nav a:hover {
 
     .project {
         margin: 15px 0;
+        padding: 15%;
+        width: 100%;
+        box-sizing: border-box;
     }
+
+    .project-image {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        display: block;
+        border-radius: 10px;
+    }
+    .profile-picture {max-width: 100%;}
+    
 }
 
 footer {
@@ -294,4 +307,23 @@ footer p {
     border-radius: 10px;
     margin: 15px auto;
     display: block;
+}
+
+#backToTop {
+display: block;
+margin: 20px auto;
+padding: 12px 24px;
+background-color: #007bff;
+color: white;
+border: none;
+border-radius: 8px;
+font-size: 16px;
+font-weight: bold;
+cursor: pointer;
+transition: background-color 0.3s, transform 0.3s;
+}
+
+#backToTop:hover {
+background-color: #0056b3;
+transform: translateY(-3px);
 }
